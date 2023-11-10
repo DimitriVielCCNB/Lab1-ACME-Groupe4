@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(249, 124, 8);
+    margin-left: 20%; 
+}
+
+
+header {
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 100px; 
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 25%; 
+    margin-top: 60px; 
+}
+
+
+.product {
+    background-color: #fff;
+    padding: 5px;
+    margin: 15px;
+    width: 30%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.price {
+    color: #e44d26;
+    font-weight: bold;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+footer {
+    background-color: rgb(232, 138, 15);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+   border: 2px solid white;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.product img {
+    width: 100%;
+    max-height: 250px;
+    
+    
+}
+.logo {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 10%;
+}
+
+
+.menu {
+    background-color: #635f56;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block; 
+    margin-right: 100px; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+aside {
+    font-family: Arial, sans-serif; 
+    font-size: 18px;
+    color: #f7f6f5;
+    width: 25%;
+    height: 1200px;
+    background-color: #5f5644;
+    float: left; 
+    border: 2px solid #fff; 
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+aside h2 {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 5px; 
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 30px; 
+}
+
+aside a {
+    text-decoration: solid;
+    color: #fff;
+    display: block; 
+    padding: 5px; 
+}
+
+aside a:hover {
+    text-decoration: underline;
+    background-color: #433c30; 
+}
+
