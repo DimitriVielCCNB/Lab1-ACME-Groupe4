@@ -24,6 +24,7 @@ div.image {
 }
 body{
     background-color: #c56205;
+    
 }
 div.image:hover {
     border: 1px solid #777
@@ -70,8 +71,8 @@ ul li a {
     transition: 0.6s ease;
 }
 @media screen and (max-width: 700px){
-    .principale{
-        width: 100%;}
+.principale{
+    width: 100%;}
 }
 ul li a:hover{
     background: white;
