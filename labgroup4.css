@@ -4,36 +4,50 @@
     background-color: #aa0505;
     color: #fff;
     padding: 10px;
-
+    float: left;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 50%;
+    margin-left: 5px;
 }
 div.image {
-    margin: 5px;
+    margin: 15px;
     border: 1px solid #ccc;
-    width: 200px;
-    float: none;
+    width: 250px;
+    float: right;
 
+}
+.imgage img {
+    width: 100%;
+    height: auto;
 }
 body{
     background-color: #c56205;
+    
 }
 div.image:hover {
     border: 1px solid #777
 }
 div.desc {
-    padding: 15px;
+    padding: 25px;
     text-align: center;
+    color: white;
 }
 div.image img {
     width: 100%;
     height: auto;
     display: flex;
-}
+
+} 
 
 header {
     background-color: #c40808;
     color: white;
     text-align: center;
     padding: 5px;
+    width: 100%;
+
 }
 #principale {
     display: flex;
@@ -49,7 +63,7 @@ ul {
 ul li a {
     text-decoration: none;
     color: yellow;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-transform: none;
     border: 1px solide transparent;
     margin: 10px;
@@ -57,8 +71,8 @@ ul li a {
     transition: 0.6s ease;
 }
 @media screen and (max-width: 700px){
-    .principale{
-        width: 100%;}
+.principale{
+    width: 100%;}
 }
 ul li a:hover{
     background: white;
